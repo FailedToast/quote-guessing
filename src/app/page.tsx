@@ -7,6 +7,7 @@ export default function HomePage() {
 			<p>Filler text this is text that is meant to display text not to actually mean something</p>
 			<a className="" target="_blank" href="https://youtu.be/A3iJITlDtLI?si=vneVdD3wxtoMo2fM"
 			style={{color: '#87CEFA'}}>This is A Link to Youtube</a>
+			<p>This is a test</p>
 		</main>
 	);
 }
