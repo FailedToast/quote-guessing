@@ -9,6 +9,12 @@ Jet Black
 Blue Slate
 #4F5D75
 
+Lighter grey
+#424e63ff
+
+Bg color
+#2c384dff
+
 Silver
 #BFC0C0
 
