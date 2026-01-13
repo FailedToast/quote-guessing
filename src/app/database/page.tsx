@@ -10,16 +10,3 @@ export default function HomePage() {
 		</main>
 	);
 }
-/*
-Link
-https://youtu.be/A3iJITlDtLI?si=vneVdD3wxtoMo2fM
-
-Embed
-https://www.youtube.com/embed/A3iJITlDtLI?si=Owig9eZwWw6x53G
-
-Embed
-https://www.youtube.com/embed/A3iJITlDtLI
-
-Video Url
-https://youtu.be/A3iJITlDtLI
-*/
