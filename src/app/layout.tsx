@@ -1,4 +1,5 @@
 import "~/styles/globals.css";
+import Link from 'next/link'
 
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
@@ -41,17 +42,24 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
 	return (
 		<html className={`${geist.variable} bg-[#2c384dff]`} lang="en">
-			
-			<div className="bg-[#2D3142]">
-				<nav className="menu">
-				<ol>
-					<li><a href="/"></a></li>
-					<li><a href=""></a></li>
-				</ol>
-				</nav>	
-			</div>
+			<body>
+				<header className="bg-[#2D3142]">
+					<nav className="">
+						<ul>
+							<li>
+							<Link href="/">Home</Link>
+							</li>
+							<li>
+							<Link href="/database">Database</Link>
+							</li>
+						</ul>
+					</nav>	
+				</header>
 
-			<body className="">{children}</body>
+				<main className="">
+					{children}
+				</main>
+			</body>
 		</html>
 	);
 }
