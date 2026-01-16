@@ -42,24 +42,19 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
 	return (
 		<html className={`${geist.variable} bg-[#2c384dff]`} lang="en">
-			<body>
-				<header className="bg-[#2D3142]">
-					<nav className="">
-						<ul>
-							<li>
-							<Link href="/">Home</Link>
-							</li>
-							<li>
-							<Link href="/database">Database</Link>
-							</li>
-						</ul>
-					</nav>	
+			<div className="container py-8">
+				<header className="fixed top-0 bg-[#2D3142] z-50 w-full px-5 py-4 flex justify-between items-center ">
+					<div className="text-lg">
+						<Link className="text-white px-3 rounded " href="/">Home</Link>
+							
+						<Link className="text-white px-3 rounded" href="/database">Database</Link>
+					</div>		
 				</header>
-
+			</div>	
 				<main className="">
 					{children}
 				</main>
-			</body>
+		
 		</html>
 	);
 }
