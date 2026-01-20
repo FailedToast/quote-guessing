@@ -43,7 +43,7 @@ export default function RootLayout({
 	return (
 		<html className={`${geist.variable} bg-[#2c384dff]`} lang="en">
 			<div className="container py-8">
-				<header className="fixed top-0 bg-[#2D3142] z-50 w-full px-5 py-4 flex justify-between items-center ">
+				<header className="fixed top-0 bg-[#2D3142] z-50 w-full px-5 py-5 flex justify-between items-center ">
 					<div className="text-lg">
 						<Link className="text-white px-3 rounded " href="/">Home</Link>
 							
