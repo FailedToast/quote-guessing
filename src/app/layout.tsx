@@ -45,8 +45,10 @@ export default function RootLayout({
 			<div className="container py-8">
 				<header className="fixed top-0 bg-[#2D3142] z-50 w-full px-5 py-5 flex justify-between items-center ">
 					<div className="text-lg">
-						<Link className="text-white px-3 rounded " href="/">Home</Link>
+						<Link className="text-white px-3 rounded " href="/">Login</Link>
 							
+						<Link className="text-white px-3 rounded" href="/play">Play</Link>
+
 						<Link className="text-white px-3 rounded" href="/database">Database</Link>
 					</div>		
 				</header>

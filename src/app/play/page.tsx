@@ -29,14 +29,11 @@ export default function HomePage() {
                         </div>
 					</div>
 
-					<div>
-						<button className="btn btn-xl bg-[#EF8354] border-1 border-[#BFC0C0] rounded-lg">Create New Set</button>  
-					</div>
                     <div className=" text-center p-6 m-auto">
-                        <button className="btn btn-xl bg-[#EF8354] border-1 border-[#BFC0C0] rounded-lg">Edit</button>  
+                        <button className="btn btn-xl bg-[#EF8354] border-1 border-[#BFC0C0] rounded-lg">Play</button>  
                     </div>
 				</div>
 			</div>
 		</main>
 	);
-}	
+}
