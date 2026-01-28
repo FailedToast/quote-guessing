@@ -21,7 +21,7 @@ export default function HomePage() {
 						<p>WIP</p>
 
 						<div className=" text-center p-6 m-auto">
-                        	<button className="btn btn-xl bg-[#EF8354] border-1 border-[#BFC0C0] rounded-lg">Play</button>
+                        	<button className="btn btn-xl bg-[#EF8354] border-1 border-[#BFC0C0] rounded-lg">Login</button>
                     	</div>
 					</div>
 				</div>
