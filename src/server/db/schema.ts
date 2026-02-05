@@ -16,14 +16,15 @@ import { index,
  */
 //originally the table was named kasane
 //'kasane-teto_
-export const createTable = pgTableCreator((name) => `quote_guessing${name}`);
+export const createTable = pgTableCreator((name) => `quote_guessing_sets${name}`);
 
 export const sets = createTable(
 	"sets",
 	(d) => ({
 		id: d.integer().primaryKey().generatedByDefaultAsIdentity(),
 		name: d.varchar({ length: 256 }),
-		quote: text("quote").primaryKey(),
+		quotes: d.text("quote").array(),
+		//quotes: text("quote").primaryKey(),
 		createdAt: d
 			.timestamp({ withTimezone: true })
 			.$defaultFn(() => /* @__PURE__ */ new Date())
